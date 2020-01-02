@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Oganization {
+struct Oganization: Decodable {
     let id: Int
     let login: String
 }
