@@ -9,5 +9,12 @@
 import Foundation
 
 struct GithubApiError : Decodable, Error {
+
+    struct FieldError: Decodable {
+        let resource: String
+        let field: String
+        let code: String
+    }
     let message: String
+    let fieldError: [FieldError]
 }
