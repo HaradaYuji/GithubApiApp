@@ -12,6 +12,7 @@ protocol GithubRequset {
     var baseURL: URL { get }
     // パスはString型なのに注意
     var path: String { get }
+    var method: HTTPMethod { get }
 }
 
 extension GithubRequset {

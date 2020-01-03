@@ -19,6 +19,7 @@
 		DD881F0523BE3B8D00B586BD /* GithubCliantError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F0423BE3B8D00B586BD /* GithubCliantError.swift */; };
 		DD881F0723BE3CEB00B586BD /* GithubApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F0623BE3CEB00B586BD /* GithubApiError.swift */; };
 		DD881F0A23BF289700B586BD /* GithubRequset.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F0923BF289700B586BD /* GithubRequset.swift */; };
+		DD881F0C23BF2B0400B586BD /* HTTPMerhod.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F0B23BF2B0400B586BD /* HTTPMerhod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		DD881F0423BE3B8D00B586BD /* GithubCliantError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubCliantError.swift; sourceTree = "<group>"; };
 		DD881F0623BE3CEB00B586BD /* GithubApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApiError.swift; sourceTree = "<group>"; };
 		DD881F0923BF289700B586BD /* GithubRequset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRequset.swift; sourceTree = "<group>"; };
+		DD881F0B23BF2B0400B586BD /* HTTPMerhod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMerhod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				DD881F0923BF289700B586BD /* GithubRequset.swift */,
+				DD881F0B23BF2B0400B586BD /* HTTPMerhod.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				DD881EE923BE2ABF00B586BD /* AppDelegate.swift in Sources */,
 				DD881F0523BE3B8D00B586BD /* GithubCliantError.swift in Sources */,
 				DD881F0223BE384E00B586BD /* SearchResponse.swift in Sources */,
+				DD881F0C23BF2B0400B586BD /* HTTPMerhod.swift in Sources */,
 				DD881F0023BE352400B586BD /* Repository.swift in Sources */,
 				DD881EEB23BE2ABF00B586BD /* SceneDelegate.swift in Sources */,
 				DD881F0723BE3CEB00B586BD /* GithubApiError.swift in Sources */,
