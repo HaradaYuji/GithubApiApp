@@ -18,6 +18,7 @@
 		DD881F0223BE384E00B586BD /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F0123BE384E00B586BD /* SearchResponse.swift */; };
 		DD881F0523BE3B8D00B586BD /* GithubCliantError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F0423BE3B8D00B586BD /* GithubCliantError.swift */; };
 		DD881F0723BE3CEB00B586BD /* GithubApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F0623BE3CEB00B586BD /* GithubApiError.swift */; };
+		DD881F0A23BF289700B586BD /* GithubRequset.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F0923BF289700B586BD /* GithubRequset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		DD881F0123BE384E00B586BD /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		DD881F0423BE3B8D00B586BD /* GithubCliantError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubCliantError.swift; sourceTree = "<group>"; };
 		DD881F0623BE3CEB00B586BD /* GithubApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApiError.swift; sourceTree = "<group>"; };
+		DD881F0923BF289700B586BD /* GithubRequset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRequset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		DD881EE723BE2ABF00B586BD /* GithubApiApp */ = {
 			isa = PBXGroup;
 			children = (
+				DD881F0823BF286800B586BD /* Request */,
 				DD881F0323BE3B6000B586BD /* Error */,
 				DD881EFC23BE31CB00B586BD /* Response */,
 				DD881EE823BE2ABF00B586BD /* AppDelegate.swift */,
@@ -96,6 +99,14 @@
 				DD881F0623BE3CEB00B586BD /* GithubApiError.swift */,
 			);
 			path = Error;
+			sourceTree = "<group>";
+		};
+		DD881F0823BF286800B586BD /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				DD881F0923BF289700B586BD /* GithubRequset.swift */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 				DD881EEB23BE2ABF00B586BD /* SceneDelegate.swift in Sources */,
 				DD881F0723BE3CEB00B586BD /* GithubApiError.swift in Sources */,
 				DD881EFE23BE320C00B586BD /* Oganization.swift in Sources */,
+				DD881F0A23BF289700B586BD /* GithubRequset.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
