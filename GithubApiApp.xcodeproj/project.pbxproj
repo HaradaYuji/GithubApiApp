@@ -22,6 +22,7 @@
 		DD881F0C23BF2B0400B586BD /* HTTPMerhod.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F0B23BF2B0400B586BD /* HTTPMerhod.swift */; };
 		DD881F0E23C07D4600B586BD /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F0D23C07D4600B586BD /* GithubAPI.swift */; };
 		DD881F1023C094C000B586BD /* GithubCliant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F0F23C094C000B586BD /* GithubCliant.swift */; };
+		DD881F1223C097D900B586BD /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F1123C097D900B586BD /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		DD881F0B23BF2B0400B586BD /* HTTPMerhod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMerhod.swift; sourceTree = "<group>"; };
 		DD881F0D23C07D4600B586BD /* GithubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
 		DD881F0F23C094C000B586BD /* GithubCliant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubCliant.swift; sourceTree = "<group>"; };
+		DD881F1123C097D900B586BD /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				DD881F0423BE3B8D00B586BD /* GithubCliantError.swift */,
 				DD881F0623BE3CEB00B586BD /* GithubApiError.swift */,
+				DD881F1123C097D900B586BD /* Result.swift */,
 			);
 			path = Error;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD881EED23BE2ABF00B586BD /* ViewController.swift in Sources */,
+				DD881F1223C097D900B586BD /* Result.swift in Sources */,
 				DD881EE923BE2ABF00B586BD /* AppDelegate.swift in Sources */,
 				DD881F0523BE3B8D00B586BD /* GithubCliantError.swift in Sources */,
 				DD881F0223BE384E00B586BD /* SearchResponse.swift in Sources */,
