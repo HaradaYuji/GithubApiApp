@@ -12,7 +12,7 @@ enum GithubCliantError: Error {
     // 通信に失敗
     case connectionError(Error)
     // レスポンスの解釈に失敗
-    case responseError(Error)
+    case responseParseError(Error)
     // APIからエラーレスポンスを受け取った
     case apiError(GithubApiError)
 }
