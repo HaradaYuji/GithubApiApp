@@ -8,7 +8,8 @@
 
 import UIKit
 
-@UIApplicationMain
+// main.swiftを別途実装したため競合しないようにコメントアウト
+//@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 

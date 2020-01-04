@@ -10,13 +10,13 @@ import Foundation
 
 enum Result<T, Error: Swift.Error> {
     case success(T)
-    case failre(Error)
+    case failure(Error)
 
     init(value: T) {
         self = .success(value)
     }
 
     init(error: Error) {
-        self = .failre(error)
+        self = .failure(error)
     }
 }
