@@ -9,10 +9,15 @@
 import Foundation
 
 protocol GithubRequset {
+    associatedtype Response: Decodable
+
+
     var baseURL: URL { get }
     // パスはString型なのに注意
     var path: String { get }
     var method: HTTPMethod { get }
+    var queryItems: [URLQueryItem] { get }
+    var bady: Encodable? { get }
 }
 
 extension GithubRequset {
