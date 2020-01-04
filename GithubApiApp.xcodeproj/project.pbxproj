@@ -20,6 +20,7 @@
 		DD881F0723BE3CEB00B586BD /* GithubApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F0623BE3CEB00B586BD /* GithubApiError.swift */; };
 		DD881F0A23BF289700B586BD /* GithubRequset.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F0923BF289700B586BD /* GithubRequset.swift */; };
 		DD881F0C23BF2B0400B586BD /* HTTPMerhod.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F0B23BF2B0400B586BD /* HTTPMerhod.swift */; };
+		DD881F0E23C07D4600B586BD /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD881F0D23C07D4600B586BD /* GithubAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		DD881F0623BE3CEB00B586BD /* GithubApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApiError.swift; sourceTree = "<group>"; };
 		DD881F0923BF289700B586BD /* GithubRequset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRequset.swift; sourceTree = "<group>"; };
 		DD881F0B23BF2B0400B586BD /* HTTPMerhod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMerhod.swift; sourceTree = "<group>"; };
+		DD881F0D23C07D4600B586BD /* GithubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				DD881EF123BE2AC100B586BD /* Assets.xcassets */,
 				DD881EF323BE2AC100B586BD /* LaunchScreen.storyboard */,
 				DD881EF623BE2AC100B586BD /* Info.plist */,
+				DD881F0D23C07D4600B586BD /* GithubAPI.swift */,
 			);
 			path = GithubApiApp;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				DD881EEB23BE2ABF00B586BD /* SceneDelegate.swift in Sources */,
 				DD881F0723BE3CEB00B586BD /* GithubApiError.swift in Sources */,
 				DD881EFE23BE320C00B586BD /* Oganization.swift in Sources */,
+				DD881F0E23C07D4600B586BD /* GithubAPI.swift in Sources */,
 				DD881F0A23BF289700B586BD /* GithubRequset.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
